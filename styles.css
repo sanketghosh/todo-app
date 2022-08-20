@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272730;
+  color: #f5eee4;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 18px;
+}
+
+header h1 {
+  font-weight: 800;
+  color: #ffc802;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  font-size: 25px;
+  outline: none;
+  border: none;
+  background: #f5eee4;
+  padding: 10px 20px;
+}
+form input {
+  min-width: 45%;
+}
+
+form button {
+  color: #3606f7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  color: #f5eee4;
+  background-color: #3606f7;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-list {
+  min-width: 65%;
+  list-style: none;
+}
+
+.todo {
+  margin: 25px;
+  background-color: #f5eee4;
+  color: #2f2e36;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item {
+  flex: 1;
+  padding: 0px 6px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.trash-btn,
+.checked-btn {
+  background-color: #f5eee4;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.trash-btn {
+  background-color: #f5eee4;
+  color: #ff0606;
+}
+.trash-btn:hover {
+  background-color: #ff0606;
+  color: #f5eee4;
+}
+
+.checked-btn {
+  background-color: #f5eee4;
+  color: #1e741b;
+}
+.checked-btn:hover {
+  background-color: #1e741b;
+  color: #f5eee4;
+}
